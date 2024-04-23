@@ -56,6 +56,7 @@ def index():
 @app.route('/login',  methods=['GET', 'POST'])
 
 def login():
+    print("hello")
     return render_template('loginPage.html')
 
 @app.route('/signup', methods=['GET', 'POST'])
