@@ -281,8 +281,11 @@ def upload():
                 print("File name", file_name)
                 print("File checksum", checksum)
                 print("File size", file_size_kb, "KB")
-
-                blocks = divide_into_blocks(text, block_size)
+                text_without_spaces = text.replace(" ", "")
+                print(text_without_spaces)
+                cleaned_string = text_without_spaces.replace('\n', '')
+                print(cleaned_string)
+                blocks = divide_into_blocks(cleaned_string, block_size)
                 print("Number of blocks:", len(blocks))
                 for i, block in enumerate(blocks):
                     print("Block", i+1, "size:", len(block), "bytes")
