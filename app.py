@@ -110,7 +110,7 @@ def userdashboard():
                     return render_template('userDashboard.html',data=data, smessage=successful)
                 else:
                 #   noData='no data'
-                    return render_template('noData.html')
+                    return render_template('NoData.html')
         except Exception as e:
             print(e)
             unsuccessful = 'Please check your credentials'
