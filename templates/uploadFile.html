@@ -77,6 +77,20 @@
         <input type="file" name="file" id="file">
         <button type="submit">Upload</button>
     </form>
+    {% if success_message %}
+    <div id="alert" class = "alert alert-success" style="color: #1707a1; margin-top: 30px; width: 400px; margin-left: 250px; height: 30px; font-size: x-large; border-radius: 10px; align-content: center; ">
+        <strong> {{success_message}}</strong>
+    </div>
+    {% endif %}
+    <script>
+        setTimeout(function(){
+            var alertDiv = document.getElementById('alert');
+            if(alertDiv){
+                alertDiv.style.display = 'none';
+            }
+
+        },6000);
+    </script>
 </body>
 </main>
 </html>
