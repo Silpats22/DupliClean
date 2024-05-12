@@ -261,6 +261,7 @@ def upload():
     try:
         files = os.listdir(directory_path)
         if len(files) == 1:
+            success_message = 'File uploaded successfully!'
             file_name = files[0]
             file_path = os.path.join(directory_path, file_name)
             file_as_blocks = {}
@@ -333,7 +334,7 @@ def upload():
             print("No file")
     except FileNotFoundError:
         print(f"Directory '{directory_path}' not found")
-    return render_template('uploadFile.html')
+    return render_template('uploadFile.html', success_message=success_message)
 
 
 @app.route('/status')
