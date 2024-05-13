@@ -236,6 +236,7 @@ def uploadPage():
 
 @app.route('/stayDashboard')
 def stayDashboard():
+    data = None
     email=session.get('email',None)
     ref = db.reference('/files')
     data = ref.order_by_child('username').equal_to(email).get()
