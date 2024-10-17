@@ -11,6 +11,6 @@ is used for data de-duplication. The MD5 hash is unique for each data block, and
 provide a higher level of accuracy for identifying unique data blocks. Incorporation of both
 checksum and MD5 helps in efficient, fast, accurate and comprehensive data deduplication<br/>
 
-Frontend : HTML,CSS,Javascript
-Backend : Flask (Python)
-Text editor : VS Code
+Frontend : HTML,CSS,Javascript<br/>
+Backend : Flask (Python)<br/>
+Text editor : VS Code<br/>
