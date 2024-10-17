@@ -14,3 +14,6 @@ checksum and MD5 helps in efficient, fast, accurate and comprehensive data dedup
 Frontend : HTML,CSS,Javascript<br/>
 Backend : Flask (Python)<br/>
 Text editor : VS Code<br/>
+
+
+![Result_1](https://github.com/user-attachments/assets/9a8f4add-fc1a-423b-8877-be74f8108067)<br/>
