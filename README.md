@@ -8,13 +8,13 @@ project aims to develop a system that identifies duplicate data using MD5 hashin
 and verifies data integrity using checksum method Adler32. Large datasets are divided into
 data blocks of fixed size, and the MD5 hash for each data block is calculated. This MD5 hash
 is used for data de-duplication. The MD5 hash is unique for each data block, and it helps
-provide a higher level of accuracy for identifying unique data blocks. Incorporation of both
-checksum and MD5 helps in efficient, fast, accurate and comprehensive data deduplication<br/>
+provide a higher level of accuracy for identifying unique data blocks.<br/>
 
 Frontend : HTML,CSS,Javascript<br/>
 Backend : Flask (Python)<br/>
 Text editor : VS Code<br/>
 
+# SCREENSHOTS
 
 ![Result_1](https://github.com/user-attachments/assets/6996dea6-f56f-4e50-961b-184da40081bb)<br/>
 ![Result_2](https://github.com/user-attachments/assets/e1328064-5eec-4d16-b3c3-ec910fc5daba)<br/>
