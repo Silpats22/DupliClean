@@ -16,4 +16,10 @@ Backend : Flask (Python)<br/>
 Text editor : VS Code<br/>
 
 
-![Result_1](https://github.com/user-attachments/assets/9a8f4add-fc1a-423b-8877-be74f8108067)<br/>
+![Result_1](https://github.com/user-attachments/assets/6996dea6-f56f-4e50-961b-184da40081bb)<br/>
+![Result_2](https://github.com/user-attachments/assets/e1328064-5eec-4d16-b3c3-ec910fc5daba)<br/>
+![Result_3](https://github.com/user-attachments/assets/e92c0f12-927d-49cc-9465-0043316c9191)<br/>
+![Result_4](https://github.com/user-attachments/assets/52913e4a-395d-4cf3-a91b-a2340974d943)<br/>
+![Result_5](https://github.com/user-attachments/assets/e6b96a4f-079f-43d5-9449-1e2046c3ba5e)<br/>
+![Result_6](https://github.com/user-attachments/assets/f287d633-efde-4cfc-b132-48ff2fe1d407)<br/>
+
